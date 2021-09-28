@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main { 
+  
+   public static void main(String[] args) {
+
+    Scanner myObj = new Scanner(System.in);
+    System.out.println("Input your age");
+    int checkAge = myObj.nextInt();
+
+    if (checkAge < 18) {
+      throw new ArithmeticException("Access Denied - You must be 18 years old!");
+    } else {
+      System.out.println("Access Granted!");
+    }
+     myObj.close();
+   } 
+}      
+                       
+   
+
+   
+
+
+
