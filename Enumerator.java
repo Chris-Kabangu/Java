@@ -1,4 +1,4 @@
- public class Main {
+ public class Enumerator {
 
   enum SEASONS {SPRING, AUTUMN, WINTER, SUMMER}
    
